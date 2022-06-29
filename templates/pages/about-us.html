@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="{% static 'css/bar.css' %}">
+        <link rel="stylesheet" href="{% static 'css/about-us.css' %}">
+        <meta charset="UTF-8" /> 
+        <title>about-us</title>
+        
+    </head>
+    <body>
+        <div class="nav">
+            <ul> 
+                
+    
+                <!-- <img src="back-ground/icon.png" class="logo-imges" > -->
+    
+                <li>
+                    <a href="{% url 'index' %}">Home</a>
+                </li>
+                <li> 
+                    <a href="{% url 'search' %}" >Search</a>
+                </li>
+                <li> 
+                    <a href="{% url 'add' %}">Add Student</a>
+                </li>
+                <li>
+                    <a href="{% url 'list' %}">List Of Students</a>
+                </li> 
+                <li> 
+                    <a href="{% url 'about' %}" >About Us</a>
+                </li>
+            </ul> 
+        </div>
+
+        <h1>Team Members</h1>
+        <div id="breakline">
+            <br>
+            <br>
+            <br>
+        </div>
+        <div>
+            <ol>
+                
+                <li>
+                     Ahmed Sobhy Abd El-Hady
+                    <br> 
+                    ID : 20200020
+                    
+                </li>
+                <br> 
+
+                <li>
+                     Hagar maher Emam Hassan 
+                    <br> 
+                    ID : 20200615
+
+                </li>   
+                <br>          
+                <li> 
+                   Abdelrahman Mohamed Shafik 
+                    <br> 
+                    ID : 20190318
+
+                </li> 
+                <br> 
+
+                <li> 
+                    Eman Mostafa Fathy 
+                    <br> 
+                    ID : 20201040
+
+                </li> 
+                <br> 
+
+                <li> 
+                    Ziad Ayman Mohammed 
+                    <br> 
+                    ID : 20200198
+
+                </li> 
+                <br> 
+
+                <li> 
+                   Sara Mahmoud Mohamed Fattal
+                    <br> 
+                    ID : 20200734
+
+                </li> 
+                
+            </ol> 
+    </div>
+    </body> 
+</html>
